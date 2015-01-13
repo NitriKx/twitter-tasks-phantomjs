@@ -1,4 +1,4 @@
-# Twitter PhantomJS automated tasks
+# Twitter automated tasks with PhantomJS
 
 A collection of [PhantomJS](http://phantomjs.org/) scripts which automatize some Twitter actions, such as account reporting, hashtag listing, ...
 
