@@ -1,11 +1,14 @@
 //  
-//    
+//   twitter-report-user-account.js
 //
+//   This PhantomJS script log onto the Twitter web interface, then navigate to the target profile and then fill a report form for the target.  
 //
-//  
+//   Author: Benoît Sauvère
 //
-//    Usage : phantomjs --ssl-protocol tlsv1 twitter-report-user-account.js <reporterTwitterId> <reporterTwitterPassword> <targetTwitterId>
-
+//   Improvements: Take a list of accounts
+//
+//   Usage: phantomjs --ssl-protocol tlsv1 twitter-report-user-account.js <reporterTwitterId> <reporterTwitterPassword> <targetTwitterId>
+//   
 
 // Parse script arguments
 var args = require('system').args;
