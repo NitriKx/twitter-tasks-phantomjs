@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TWITTER_USERNAME=$1
-TWITTER_PASSWORD=$2
+TWITTER_USERNAME="$1"
+TWITTER_PASSWORD="$2"
 
 while read LINE
 do
@@ -10,4 +10,4 @@ do
 
     phantomjs --ssl-protocol tlsv1 twitter-report-user-account.js "${TWITTER_USERNAME}" "${TWITTER_PASSWORD}" "${LINE}"
   
-done < listeComptes.txt
+done < "$3"
